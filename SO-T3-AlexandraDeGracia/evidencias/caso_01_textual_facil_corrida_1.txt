@@ -1,0 +1,72 @@
+========================================
+CASO 01 - TEXTUAL FACIL (D=95)
+========================================
+Corrida: 1 de 3 | Fecha: 2026-10-15 17:01:14 | Comando: ./meeseeks   
+
+ENTRADA:
+  | 1
+  | Quiero un cafe frances
+  | m
+  | 95
+  | f
+  | 0.5
+  | 0
+
+RESULTADO: OK (codigo de salida=0; esperado /estado: COMPLETADA/) 
+           MISION CUMPLIDA impresa por el Meeseeks original (N=1, i=1): OK
+
+PROCESOS (tras terminar la corrida):
+  meeseeks vivos/residuales : 0
+  zombis                    : 0
+  huerfanos (PPID=1)        : 0
+
+SALIDA COMPLETA DEL PROGRAMA:
+----------------------------------------
+===========================================================
+                BOX MR. MEESEEKS - SISTEMA ACTIVO
+===========================================================
+ Box PID: 420
+ Limite de tiempo global: 300 segundos
+ Limite de procesos concurrentes en semaforo: 64
+ Para salir y ver el informe final de solicitudes, ingrese 0.
+ Tambien puede escribir directamente su solicitud: una expresion (15 + 27),
+ una ruta de programa (/bin/true) o texto libre (solicitud textual).
+===========================================================
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Describe la solicitud (ej. 'Quiero un cafe frances'): ¿Dificultad manual o aleatoria? (m/a): Introduce la dificultad (0 = imposible a 100 = facil): ¿Tiempo simulado fijo o aleatorio? (f/a): Introduce el tiempo simulado por Meeseeks en segundos (0.5 a 5.0): Hi, I'm Mr. Meeseeks! Look at Meeeee. (423, 420, 1, 1)
+Meeseeks (PID=423, PPID=420, N=1, i=1): ¡He completado la mision! ¡Gracias por confiar en mi!
+Meeseeks original (PID=423, PPID=420, N=1, i=1): ¡MISION CUMPLIDA! ¡He completado la mision! ¡Gracias por confiar en mi! Meeseeks que la resolvio: (pid=423, ppid=420, N=1, i=1)
+Box: Estadisticas de la solicitud (estado: COMPLETADA; el exito lo anuncio el Meeseeks original).
+     Ganador: PID=423, PPID=420, N=1, i=1
+     Procesos Meeseeks creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0007 s | Real (sin esperas): 0.0031 s | Espera simulada (suma): 0.500 s | Total: 0.503 s | Nivel max: 1
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): 
+=====================================================================================================================================
+                                     INFORME FINAL DE SOLICITUDES - BOX MR. MEESEEKS
+=====================================================================================================================================
+ #   | Tipo          | Dificultad | Estado                | T.Real (s) | T.CPU (s)  | T.Tot (s)  | Meeseeks | Pico  | Nmax | Descripcion
+-----+---------------+------------+-----------------------+------------+------------+------------+----------+-------+------+------------------
+ 1   | Textual       | 95.00      | COMPLETADA            |     0.0031 |     0.0007 |      0.503 |        1 |     1 |    1 | Quiero un cafe frances
+=====================================================================================================================================
+RESUMEN GENERAL ACUMULADO:
+ - Total de solicitudes realizadas : 1
+ - Tareas completadas con exito     : 1
+ - Tareas fallidas / no resueltas  : 0
+ - Tareas interrumpidas por tiempo : 0 (Caos Planetario)
+ - Total de Mr. Meeseeks creados    : 1
+ - Tiempo total de CPU acumulado   : 0.0007 s
+ - Tiempo total de reloj de sesion : 0.503 s
+=====================================================================================================================================
+Box: ¡Todas las solicitudes fueron procesadas! ¡Hasta la proxima!
+

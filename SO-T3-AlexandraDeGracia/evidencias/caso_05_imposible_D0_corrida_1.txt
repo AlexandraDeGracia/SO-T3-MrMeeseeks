@@ -1,0 +1,136 @@
+========================================
+CASO 05 - IMPOSIBLE D=0 (31 procesos)
+========================================
+Corrida: 1 de 3 | Fecha: 2026-10-15 17:01:46 | Comando: ./meeseeks   
+
+ENTRADA:
+  | 1
+  | Tarea imposible
+  | m
+  | 0
+  | f
+  | 0.5
+  | 0
+
+RESULTADO: OK (codigo de salida=0; esperado /MISION NO CUMPLIDA/) 
+
+PROCESOS (tras terminar la corrida):
+  meeseeks vivos/residuales : 0
+  zombis                    : 0
+  huerfanos (PPID=1)        : 0
+
+SALIDA COMPLETA DEL PROGRAMA:
+----------------------------------------
+===========================================================
+                BOX MR. MEESEEKS - SISTEMA ACTIVO
+===========================================================
+ Box PID: 646
+ Limite de tiempo global: 300 segundos
+ Limite de procesos concurrentes en semaforo: 64
+ Para salir y ver el informe final de solicitudes, ingrese 0.
+ Tambien puede escribir directamente su solicitud: una expresion (15 + 27),
+ una ruta de programa (/bin/true) o texto libre (solicitud textual).
+===========================================================
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Describe la solicitud (ej. 'Quiero un cafe frances'): ¿Dificultad manual o aleatoria? (m/a): Introduce la dificultad (0 = imposible a 100 = facil): ¿Tiempo simulado fijo o aleatorio? (f/a): Introduce el tiempo simulado por Meeseeks en segundos (0.5 a 5.0): Hi, I'm Mr. Meeseeks! Look at Meeeee. (647, 646, 1, 1)
+Meeseeks (PID=647, PPID=646, N=1, i=1): La tarea es dificil (D=0.0). Invocando 5 Meeseeks hermanos en paralelo (N=2)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (648, 647, 2, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (649, 647, 2, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (650, 647, 2, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (651, 647, 2, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (652, 647, 2, 5)
+Meeseeks (PID=650, PPID=647, N=2, i=3): La tarea es dificil (D=0.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=649, PPID=647, N=2, i=2): La tarea es dificil (D=0.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=652, PPID=647, N=2, i=5): La tarea es dificil (D=0.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=651, PPID=647, N=2, i=4): La tarea es dificil (D=0.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=648, PPID=647, N=2, i=1): La tarea es dificil (D=0.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (653, 652, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (655, 650, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (656, 648, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (657, 649, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (661, 648, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (662, 649, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (663, 652, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (659, 651, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (665, 649, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (664, 648, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (666, 652, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (660, 650, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (667, 649, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (668, 652, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (669, 649, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (654, 651, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (658, 652, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (670, 650, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (671, 651, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (673, 650, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (672, 648, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (675, 650, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (674, 651, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (676, 648, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (677, 651, 3, 5)
+Meeseeks (PID=668, PPID=652, N=3, i=5): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger elMeeseeks (PID=676, PPID=648, N=3, i=5): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger elMeeseeks (PID=663, PPID=652, N=3, i=3): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+ sistema.
+Meeseeks (PID=666, PPID=652, N=3, i=4): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+ sistema.
+Meeseeks (PID=665, PPID=649, N=3, i=3): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=667, PPID=649, N=3, i=4): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=671, PPID=651, N=3, i=3): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=675, PPID=650, N=3, i=5): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=669, PPID=649, N=3, i=5): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger elMeeseeks (PID=660, PPID=650, N=3, i=2): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+ sistema.
+Meeseeks (PID=653, PPID=652, N=3, i=1): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=670, PPID=650, N=3, i=3): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=674, PPID=651, N=3, i=4): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=657, PPID=649, N=3, i=1): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=654, PPID=651, N=3, i=1): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=659, PPID=651, N=3, i=2): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=662, PPID=649, N=3, i=2): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=672, PPID=648, N=3, i=4): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger elMeeseeks (PID=673, PPID=650, N=3, i=4): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=656, PPID=648, N=3, i=1): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+ sistema.
+Meeseeks (PID=661, PPID=648, N=3, i=2): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=677, PPID=651, N=3, i=5): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=649, PPID=647, N=2, i=2): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=658, PPID=652, N=3, i=2): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=655, PPID=650, N=3, i=1): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=652, PPID=647, N=2, i=5): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=664, PPID=648, N=3, i=3): Plan de contingencia: Dificultad 0 (imposible). Se detiene la expansion para proteger el sistema.
+Meeseeks (PID=650, PPID=647, N=2, i=3): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=648, PPID=647, N=2, i=1): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=651, PPID=647, N=2, i=4): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=647, PPID=646, N=1, i=1): No se encontro solucion en esta rama; me despido.
+Meeseeks original (PID=647, PPID=646, N=1, i=1): MISION NO CUMPLIDA. 
+Box: Estadisticas de la solicitud (estado: FALLIDA; la mision no pudo ser resuelta).
+     Procesos Meeseeks creados: 31 | Pico simultaneo: 31
+     Tiempos -> CPU: 0.0496 s | Real (sin esperas): 0.0139 s | Espera simulada (suma): 27.969 s | Total: 2.358 s | Nivel max: 3
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): 
+=====================================================================================================================================
+                                     INFORME FINAL DE SOLICITUDES - BOX MR. MEESEEKS
+=====================================================================================================================================
+ #   | Tipo          | Dificultad | Estado                | T.Real (s) | T.CPU (s)  | T.Tot (s)  | Meeseeks | Pico  | Nmax | Descripcion
+-----+---------------+------------+-----------------------+------------+------------+------------+----------+-------+------+------------------
+ 1   | Textual       | 0.00       | FALLIDA               |     0.0139 |     0.0496 |      2.358 |       31 |    31 |    3 | Tarea imposible
+=====================================================================================================================================
+RESUMEN GENERAL ACUMULADO:
+ - Total de solicitudes realizadas : 1
+ - Tareas completadas con exito     : 0
+ - Tareas fallidas / no resueltas  : 1
+ - Tareas interrumpidas por tiempo : 0 (Caos Planetario)
+ - Total de Mr. Meeseeks creados    : 31
+ - Tiempo total de CPU acumulado   : 0.0496 s
+ - Tiempo total de reloj de sesion : 2.358 s
+=====================================================================================================================================
+Box: ¡Todas las solicitudes fueron procesadas! ¡Hasta la proxima!
+

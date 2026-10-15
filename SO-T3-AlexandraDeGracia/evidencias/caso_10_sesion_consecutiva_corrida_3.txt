@@ -1,0 +1,135 @@
+========================================
+CASO 10 - SESION CONSECUTIVA
+========================================
+Corrida: 3 de 3 | Fecha: 2026-10-15 17:02:16 | Comando: ./meeseeks   
+
+ENTRADA:
+  | 1
+  | Cafe
+  | m
+  | 95
+  | f
+  | 0.5
+  | 2
+  | 2 + 2
+  | 3
+  | /bin/true
+  | 1
+  | Abrazo
+  | m
+  | 60
+  | f
+  | 0.5
+  | 0
+
+RESULTADO: OK (codigo de salida=0; esperado /MISION CUMPLIDA/) 
+           MISION CUMPLIDA impresa por el Meeseeks original (N=1, i=1): OK
+
+PROCESOS (tras terminar la corrida):
+  meeseeks vivos/residuales : 0
+  zombis                    : 0
+  huerfanos (PPID=1)        : 0
+
+SALIDA COMPLETA DEL PROGRAMA:
+----------------------------------------
+===========================================================
+                BOX MR. MEESEEKS - SISTEMA ACTIVO
+===========================================================
+ Box PID: 994
+ Limite de tiempo global: 300 segundos
+ Limite de procesos concurrentes en semaforo: 64
+ Para salir y ver el informe final de solicitudes, ingrese 0.
+ Tambien puede escribir directamente su solicitud: una expresion (15 + 27),
+ una ruta de programa (/bin/true) o texto libre (solicitud textual).
+===========================================================
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Describe la solicitud (ej. 'Quiero un cafe frances'): ¿Dificultad manual o aleatoria? (m/a): Introduce la dificultad (0 = imposible a 100 = facil): ¿Tiempo simulado fijo o aleatorio? (f/a): Introduce el tiempo simulado por Meeseeks en segundos (0.5 a 5.0): Hi, I'm Mr. Meeseeks! Look at Meeeee. (995, 994, 1, 1)
+Meeseeks (PID=995, PPID=994, N=1, i=1): ¡He completado la mision! ¡Gracias por confiar en mi!
+Meeseeks original (PID=995, PPID=994, N=1, i=1): ¡MISION CUMPLIDA! ¡He completado la mision! ¡Gracias por confiar en mi! Meeseeks que la resolvio: (pid=995, ppid=994, N=1, i=1)
+Box: Estadisticas de la solicitud (estado: COMPLETADA; el exito lo anuncio el Meeseeks original).
+     Ganador: PID=995, PPID=994, N=1, i=1
+     Procesos Meeseeks creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0007 s | Real (sin esperas): 0.0029 s | Espera simulada (suma): 0.500 s | Total: 0.503 s | Nivel max: 1
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Operaciones compatibles: +, -, *, /, %, <, >, <=, >=, ==, !=, &&, ||
+Introduce la expresion (ej: '15 + 27', '100 / 4', '15 > 8'): Hi, I'm Mr. Meeseeks! Look at Meeeee. (996, 994, 1, 1)
+Meeseeks (PID=996, PPID=994, N=1, i=1): Resultado = 4.0000
+Meeseeks (PID=996, PPID=994, N=1, i=1): ¡Calculo completado exitosamente! Me despido.
+Meeseeks original (PID=996, PPID=994, N=1, i=1): ¡MISION CUMPLIDA! Resultado = 4.0000 Meeseeks que la resolvio: (pid=996, ppid=994, N=1, i=1)
+Box: Estadisticas de la solicitud (estado: COMPLETADA; el exito lo anuncio el Meeseeks original).
+     Ganador: PID=996, PPID=994, N=1, i=1
+     Procesos Meeseeks creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0003 s | Real (sin esperas): 0.0005 s | Espera simulada (suma): 0.000 s | Total: 0.000 s | Nivel max: 1
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Ruta o comando del programa externo (ej. /bin/true, /bin/false): Hi, I'm Mr. Meeseeks! Look at Meeeee. (997, 994, 1, 1)
+Meeseeks (PID=997, PPID=994, N=1, i=1): Programa termino exitosamente (codigo 0).
+Meeseeks (PID=997, PPID=994, N=1, i=1): Mision externa cumplida; me despido.
+Meeseeks original (PID=997, PPID=994, N=1, i=1): ¡MISION CUMPLIDA! Programa termino exitosamente (codigo 0). Meeseeks que la resolvio: (pid=997, ppid=994, N=1, i=1)
+Box: Estadisticas de la solicitud (estado: COMPLETADA; el exito lo anuncio el Meeseeks original).
+     Ganador: PID=997, PPID=994, N=1, i=1
+     Procesos Meeseeks creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0014 s | Real (sin esperas): 0.0016 s | Espera simulada (suma): 0.000 s | Total: 0.002 s | Nivel max: 1
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Describe la solicitud (ej. 'Quiero un cafe frances'): ¿Dificultad manual o aleatoria? (m/a): Introduce la dificultad (0 = imposible a 100 = facil): ¿Tiempo simulado fijo o aleatorio? (f/a): Introduce el tiempo simulado por Meeseeks en segundos (0.5 a 5.0): Hi, I'm Mr. Meeseeks! Look at Meeeee. (999, 994, 1, 1)
+Meeseeks (PID=999, PPID=994, N=1, i=1): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=2)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (1000, 999, 2, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (1001, 999, 2, 2)
+Meeseeks (PID=1000, PPID=999, N=2, i=1): La tarea es dificil (D=75.0). Invocando 2 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=1001, PPID=999, N=2, i=2): ¡He completado la mision directamente! ¡Gracias!
+Meeseeks (PID=1000, PPID=999, N=2, i=1): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Meeseeks (PID=1000, PPID=999, N=2, i=1): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=999, PPID=994, N=1, i=1): ¡Mi hijo (PID=1001, N=2, i=2) resolvio la mision! Notificando cancelacion a los demas hermanos...
+Meeseeks (PID=999, PPID=994, N=1, i=1): Mision completada por un descendiente; me despido.
+Meeseeks original (PID=999, PPID=994, N=1, i=1): ¡MISION CUMPLIDA! ¡He completado la mision directamente! ¡Gracias! Meeseeks que la resolvio: (pid=1001, ppid=999, N=2, i=2)
+Box: Estadisticas de la solicitud (estado: COMPLETADA; el exito lo anuncio el Meeseeks original).
+     Ganador: PID=1001, PPID=999, N=2, i=2
+     Procesos Meeseeks creados: 3 | Pico simultaneo: 3
+     Tiempos -> CPU: 0.0033 s | Real (sin esperas): 0.0064 s | Espera simulada (suma): 1.500 s | Total: 1.006 s | Nivel max: 2
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): 
+=====================================================================================================================================
+                                     INFORME FINAL DE SOLICITUDES - BOX MR. MEESEEKS
+=====================================================================================================================================
+ #   | Tipo          | Dificultad | Estado                | T.Real (s) | T.CPU (s)  | T.Tot (s)  | Meeseeks | Pico  | Nmax | Descripcion
+-----+---------------+------------+-----------------------+------------+------------+------------+----------+-------+------+------------------
+ 1   | Textual       | 95.00      | COMPLETADA            |     0.0029 |     0.0007 |      0.503 |        1 |     1 |    1 | Cafe
+ 2   | Calculo       | N/A        | COMPLETADA            |     0.0005 |     0.0003 |      0.000 |        1 |     1 |    1 | 2 + 2
+ 3   | Programa ext. | N/A        | COMPLETADA            |     0.0016 |     0.0014 |      0.002 |        1 |     1 |    1 | /bin/true
+ 4   | Textual       | 60.00      | COMPLETADA            |     0.0064 |     0.0033 |      1.006 |        3 |     3 |    2 | Abrazo
+=====================================================================================================================================
+RESUMEN GENERAL ACUMULADO:
+ - Total de solicitudes realizadas : 4
+ - Tareas completadas con exito     : 4
+ - Tareas fallidas / no resueltas  : 0
+ - Tareas interrumpidas por tiempo : 0 (Caos Planetario)
+ - Total de Mr. Meeseeks creados    : 6
+ - Tiempo total de CPU acumulado   : 0.0057 s
+ - Tiempo total de reloj de sesion : 1.511 s
+=====================================================================================================================================
+Box: ¡Todas las solicitudes fueron procesadas! ¡Hasta la proxima!
+

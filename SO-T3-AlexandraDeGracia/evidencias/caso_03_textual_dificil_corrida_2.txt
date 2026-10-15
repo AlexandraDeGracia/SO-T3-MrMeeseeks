@@ -1,0 +1,223 @@
+========================================
+CASO 03 - TEXTUAL DIFICIL (D=20)
+========================================
+Corrida: 2 de 3 | Fecha: 2026-10-15 17:01:24 | Comando: ./meeseeks   
+
+ENTRADA:
+  | 1
+  | Quiero la paz mundial
+  | m
+  | 20
+  | f
+  | 0.5
+  | 0
+
+RESULTADO: OK (codigo de salida=0; esperado /MISION CUMPLIDA/) 
+           MISION CUMPLIDA impresa por el Meeseeks original (N=1, i=1): OK
+
+PROCESOS (tras terminar la corrida):
+  meeseeks vivos/residuales : 0
+  zombis                    : 0
+  huerfanos (PPID=1)        : 0
+
+SALIDA COMPLETA DEL PROGRAMA:
+----------------------------------------
+===========================================================
+                BOX MR. MEESEEKS - SISTEMA ACTIVO
+===========================================================
+ Box PID: 512
+ Limite de tiempo global: 300 segundos
+ Limite de procesos concurrentes en semaforo: 64
+ Para salir y ver el informe final de solicitudes, ingrese 0.
+ Tambien puede escribir directamente su solicitud: una expresion (15 + 27),
+ una ruta de programa (/bin/true) o texto libre (solicitud textual).
+===========================================================
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Describe la solicitud (ej. 'Quiero un cafe frances'): ¿Dificultad manual o aleatoria? (m/a): Introduce la dificultad (0 = imposible a 100 = facil): ¿Tiempo simulado fijo o aleatorio? (f/a): Introduce el tiempo simulado por Meeseeks en segundos (0.5 a 5.0): Hi, I'm Mr. Meeseeks! Look at Meeeee. (513, 512, 1, 1)
+Meeseeks (PID=513, PPID=512, N=1, i=1): La tarea es dificil (D=20.0). Invocando 5 Meeseeks hermanos en paralelo (N=2)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (514, 513, 2, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (515, 513, 2, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (516, 513, 2, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (517, 513, 2, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (518, 513, 2, 5)
+Meeseeks (PID=518, PPID=513, N=2, i=5): La tarea es dificil (D=40.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=516, PPID=513, N=2, i=3): La tarea es dificil (D=40.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=514, PPID=513, N=2, i=1): La tarea es dificil (D=40.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=517, PPID=513, N=2, i=4): La tarea es dificil (D=40.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Meeseeks (PID=515, PPID=513, N=2, i=2): La tarea es dificil (D=40.0). Invocando 5 Meeseeks hermanos en paralelo (N=3)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (519, 514, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (521, 517, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (524, 514, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (520, 516, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (522, 518, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (531, 514, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (528, 514, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (532, 516, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (530, 515, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (533, 514, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (523, 516, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (529, 517, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (534, 516, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (527, 516, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (536, 518, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (535, 515, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (525, 517, 3, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (538, 518, 3, 3)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (537, 517, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (526, 515, 3, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (539, 515, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (540, 517, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (541, 518, 3, 4)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (542, 515, 3, 5)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (543, 518, 3, 5)
+Meeseeks (PID=536, PPID=518, N=3, i=2): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=521, PPID=517, N=3, i=1): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=522, PPID=518, N=3, i=1): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=540, PPID=517, N=3, i=5): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=525, PPID=517, N=3, i=2): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=534, PPID=516, N=3, i=5): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=520, PPID=516, N=3, i=1): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=526, PPID=515, N=3, i=1): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=527, PPID=516, N=3, i=3): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=529, PPID=517, N=3, i=3): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=539, PPID=515, N=3, i=4): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=531, PPID=514, N=3, i=4): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=541, PPID=518, N=3, i=4): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (544, 536, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (550, 521, 4, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (547, 527, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (545, 521, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (549, 536, 4, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (551, 527, 4, 2)
+Meeseeks (PID=530, PPID=515, N=3, i=2): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (548, 534, 4, 1)
+Meeseeks (PID=543, PPID=518, N=3, i=5): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=532, PPID=516, N=3, i=4): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (552, 539, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (554, 534, 4, 2)
+Meeseeks (PID=519, PPID=514, N=3, i=1): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Meeseeks (PID=528, PPID=514, N=3, i=3): La tarea es dificil (D=60.0). Invocando 2 Meeseeks hermanos en paralelo (N=4)...
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (561, 532, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (562, 529, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (560, 543, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (553, 541, 4, 1)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (563, 532, 4, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (565, 529, 4, 2)
+Meeseeks (PID=538, PPID=518, N=3, i=3): ¡He completado la mision directamente! ¡Gracias!
+Meeseeks (PID=540, PPID=517, N=3, i=5): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Meeseeks (PID=519, PPID=514, N=3, i=1): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (555, 541, 4, 2)
+Meeseeks (PID=555, PPID=541, N=4, i=2): Un hermano resolvio la mision; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (558, 540, 4, 1)
+Meeseeks (PID=558, PPID=540, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=530, PPID=515, N=3, i=2): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Meeseeks (PID=518, PPID=513, N=2, i=5): ¡Mi hijo (PID=538, N=3, i=3) resolvio la mision! Notificando cancelacion a los demas hermanos...
+Meeseeks (PID=520, PPID=516, N=3, i=1): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (557, 530, 4, 1)
+Meeseeks (PID=557, PPID=530, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=535, PPID=515, N=3, i=3): Un hermano resolvio la mision; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (566, 519, 4, 1)
+Meeseeks (PID=540, PPID=517, N=3, i=5): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=566, PPID=519, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=531, PPID=514, N=3, i=4): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Meeseeks (PID=530, PPID=515, N=3, i=2): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=560, PPID=543, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=544, PPID=536, N=4, i=1): Un hermano resolvio la mision; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (568, 531, 4, 1)
+Meeseeks (PID=568, PPID=531, N=4, i=1): Un hermano resolvio la mision; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (567, 520, 4, 1)
+Meeseeks (PID=567, PPID=520, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=542, PPID=515, N=3, i=5): Un hermano resolvio la mision; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (559, 522, 4, 1)
+Meeseeks (PID=559, PPID=522, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=533, PPID=514, N=3, i=5): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=553, PPID=541, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=531, PPID=514, N=3, i=4): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=549, PPID=536, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=523, PPID=516, N=3, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=541, PPID=518, N=3, i=4): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=536, PPID=518, N=3, i=2): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=519, PPID=514, N=3, i=1): No se encontro solucion en esta rama; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (546, 525, 4, 1)
+Meeseeks (PID=546, PPID=525, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=537, PPID=517, N=3, i=4): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=524, PPID=514, N=3, i=2): Un hermano resolvio la mision; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (569, 522, 4, 2)
+Meeseeks (PID=569, PPID=522, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=522, PPID=518, N=3, i=1): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=520, PPID=516, N=3, i=1): No se encontro solucion en esta rama; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (564, 543, 4, 2)
+Meeseeks (PID=564, PPID=543, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=543, PPID=518, N=3, i=5): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=518, PPID=513, N=2, i=5): Mision completada por un descendiente; me despido.
+Meeseeks (PID=526, PPID=515, N=3, i=1): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Meeseeks (PID=513, PPID=512, N=1, i=1): ¡Mi hijo (PID=538, N=3, i=3) resolvio la mision! Notificando cancelacion a los demas heHi, I'm Mr. Meeseeks! Look at Meeeee. (556, 539, 4, 2)
+Meeseeks (PID=556, PPID=539, N=4, i=2): Un hermano resolvio la mision; me despido.
+rmanos...
+Meeseeks (PID=547, PPID=527, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=545, PPID=521, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=550, PPID=521, N=4, i=2): Un hermano resolvio la mision; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (570, 526, 4, 1)
+Meeseeks (PID=570, PPID=526, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=551, PPID=527, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=528, PPID=514, N=3, i=3): Limite de procesos simultaneos alcanzado; deteniendo expansion.
+Meeseeks (PID=521, PPID=517, N=3, i=1): No se encontro solucion en esta rama; me despido.
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (572, 525, 4, 2)
+Hi, I'm Mr. Meeseeks! Look at Meeeee. (571, 528, 4, 1)
+Meeseeks (PID=571, PPID=528, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=572, PPID=525, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=525, PPID=517, N=3, i=2): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=527, PPID=516, N=3, i=3): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=528, PPID=514, N=3, i=3): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=526, PPID=515, N=3, i=1): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=514, PPID=513, N=2, i=1): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=562, PPID=529, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=552, PPID=539, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=561, PPID=532, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=565, PPID=529, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=539, PPID=515, N=3, i=4): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=563, PPID=532, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=515, PPID=513, N=2, i=2): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=529, PPID=517, N=3, i=3): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=532, PPID=516, N=3, i=4): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=517, PPID=513, N=2, i=4): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=548, PPID=534, N=4, i=1): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=554, PPID=534, N=4, i=2): Un hermano resolvio la mision; me despido.
+Meeseeks (PID=534, PPID=516, N=3, i=5): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=516, PPID=513, N=2, i=3): No se encontro solucion en esta rama; me despido.
+Meeseeks (PID=513, PPID=512, N=1, i=1): Mision completada por un descendiente; me despido.
+Meeseeks original (PID=513, PPID=512, N=1, i=1): ¡MISION CUMPLIDA! ¡He completado la mision directamente! ¡Gracias! Meeseeks que la resolvio: (pid=538, ppid=518, N=3, i=3)
+Box: Estadisticas de la solicitud (estado: COMPLETADA; el exito lo anuncio el Meeseeks original).
+     Ganador: PID=538, PPID=518, N=3, i=3
+     Procesos Meeseeks creados: 60 | Pico simultaneo: 60
+     Tiempos -> CPU: 0.0699 s | Real (sin esperas): 0.0155 s | Espera simulada (suma): 30.000 s | Total: 1.515 s | Nivel max: 4
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): 
+=====================================================================================================================================
+                                     INFORME FINAL DE SOLICITUDES - BOX MR. MEESEEKS
+=====================================================================================================================================
+ #   | Tipo          | Dificultad | Estado                | T.Real (s) | T.CPU (s)  | T.Tot (s)  | Meeseeks | Pico  | Nmax | Descripcion
+-----+---------------+------------+-----------------------+------------+------------+------------+----------+-------+------+------------------
+ 1   | Textual       | 20.00      | COMPLETADA            |     0.0155 |     0.0699 |      1.515 |       60 |    60 |    4 | Quiero la paz mundial
+=====================================================================================================================================
+RESUMEN GENERAL ACUMULADO:
+ - Total de solicitudes realizadas : 1
+ - Tareas completadas con exito     : 1
+ - Tareas fallidas / no resueltas  : 0
+ - Tareas interrumpidas por tiempo : 0 (Caos Planetario)
+ - Total de Mr. Meeseeks creados    : 60
+ - Tiempo total de CPU acumulado   : 0.0699 s
+ - Tiempo total de reloj de sesion : 1.515 s
+=====================================================================================================================================
+Box: ¡Todas las solicitudes fueron procesadas! ¡Hasta la proxima!
+

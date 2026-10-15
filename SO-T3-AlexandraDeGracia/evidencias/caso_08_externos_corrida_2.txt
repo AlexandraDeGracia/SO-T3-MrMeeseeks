@@ -1,0 +1,102 @@
+========================================
+CASO 08 - PROGRAMAS EXTERNOS
+========================================
+Corrida: 2 de 3 | Fecha: 2026-10-15 17:02:03 | Comando: ./meeseeks   
+
+ENTRADA:
+  | 3
+  | /bin/true
+  | 3
+  | /bin/false
+  | 3
+  | /no/existe
+  | 0
+
+RESULTADO: OK (codigo de salida=0; esperado /codigo de error 1/) 
+           MISION CUMPLIDA impresa por el Meeseeks original (N=1, i=1): OK
+
+PROCESOS (tras terminar la corrida):
+  meeseeks vivos/residuales : 0
+  zombis                    : 0
+  huerfanos (PPID=1)        : 0
+
+SALIDA COMPLETA DEL PROGRAMA:
+----------------------------------------
+===========================================================
+                BOX MR. MEESEEKS - SISTEMA ACTIVO
+===========================================================
+ Box PID: 776
+ Limite de tiempo global: 300 segundos
+ Limite de procesos concurrentes en semaforo: 64
+ Para salir y ver el informe final de solicitudes, ingrese 0.
+ Tambien puede escribir directamente su solicitud: una expresion (15 + 27),
+ una ruta de programa (/bin/true) o texto libre (solicitud textual).
+===========================================================
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Ruta o comando del programa externo (ej. /bin/true, /bin/false): Hi, I'm Mr. Meeseeks! Look at Meeeee. (777, 776, 1, 1)
+Meeseeks (PID=777, PPID=776, N=1, i=1): Programa termino exitosamente (codigo 0).
+Meeseeks (PID=777, PPID=776, N=1, i=1): Mision externa cumplida; me despido.
+Meeseeks original (PID=777, PPID=776, N=1, i=1): ¡MISION CUMPLIDA! Programa termino exitosamente (codigo 0). Meeseeks que la resolvio: (pid=777, ppid=776, N=1, i=1)
+Box: Estadisticas de la solicitud (estado: COMPLETADA; el exito lo anuncio el Meeseeks original).
+     Ganador: PID=777, PPID=776, N=1, i=1
+     Procesos Meeseeks creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0007 s | Real (sin esperas): 0.0018 s | Espera simulada (suma): 0.000 s | Total: 0.002 s | Nivel max: 1
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Ruta o comando del programa externo (ej. /bin/true, /bin/false): Hi, I'm Mr. Meeseeks! Look at Meeeee. (779, 776, 1, 1)
+Meeseeks (PID=779, PPID=776, N=1, i=1): Programa termino con codigo de error 1.
+Meeseeks (PID=779, PPID=776, N=1, i=1): El programa externo reporto error; me despido.
+Meeseeks original (PID=779, PPID=776, N=1, i=1): MISION NO CUMPLIDA. Programa termino con codigo de error 1.
+Box: Estadisticas de la solicitud (estado: FALLIDA; la mision no pudo ser resuelta).
+     Procesos Meeseeks creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0029 s | Real (sin esperas): 0.0042 s | Espera simulada (suma): 0.000 s | Total: 0.004 s | Nivel max: 1
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Ruta o comando del programa externo (ej. /bin/true, /bin/false): Hi, I'm Mr. Meeseeks! Look at Meeeee. (781, 776, 1, 1)
+Meeseeks (PID=782, PPID=781): execvp error [/no/existe]: No such file or directory
+Meeseeks (PID=781, PPID=776, N=1, i=1): Programa termino con codigo de error 127.
+Meeseeks (PID=781, PPID=776, N=1, i=1): El programa externo reporto error; me despido.
+Meeseeks original (PID=781, PPID=776, N=1, i=1): MISION NO CUMPLIDA. Programa termino con codigo de error 127.
+Box: Estadisticas de la solicitud (estado: FALLIDA; la mision no pudo ser resuelta).
+     Procesos Meeseeks creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0007 s | Real (sin esperas): 0.0010 s | Espera simulada (suma): 0.000 s | Total: 0.001 s | Nivel max: 1
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): 
+=====================================================================================================================================
+                                     INFORME FINAL DE SOLICITUDES - BOX MR. MEESEEKS
+=====================================================================================================================================
+ #   | Tipo          | Dificultad | Estado                | T.Real (s) | T.CPU (s)  | T.Tot (s)  | Meeseeks | Pico  | Nmax | Descripcion
+-----+---------------+------------+-----------------------+------------+------------+------------+----------+-------+------+------------------
+ 1   | Programa ext. | N/A        | COMPLETADA            |     0.0018 |     0.0007 |      0.002 |        1 |     1 |    1 | /bin/true
+ 2   | Programa ext. | N/A        | FALLIDA               |     0.0042 |     0.0029 |      0.004 |        1 |     1 |    1 | /bin/false
+ 3   | Programa ext. | N/A        | FALLIDA               |     0.0010 |     0.0007 |      0.001 |        1 |     1 |    1 | /no/existe
+=====================================================================================================================================
+RESUMEN GENERAL ACUMULADO:
+ - Total de solicitudes realizadas : 3
+ - Tareas completadas con exito     : 1
+ - Tareas fallidas / no resueltas  : 2
+ - Tareas interrumpidas por tiempo : 0 (Caos Planetario)
+ - Total de Mr. Meeseeks creados    : 3
+ - Tiempo total de CPU acumulado   : 0.0043 s
+ - Tiempo total de reloj de sesion : 0.007 s
+=====================================================================================================================================
+Box: ¡Todas las solicitudes fueron procesadas! ¡Hasta la proxima!
+

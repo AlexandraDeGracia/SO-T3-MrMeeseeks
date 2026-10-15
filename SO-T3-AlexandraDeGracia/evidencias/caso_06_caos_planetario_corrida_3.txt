@@ -1,0 +1,74 @@
+========================================
+CASO 06 - CAOS PLANETARIO
+========================================
+Corrida: 3 de 3 | Fecha: 2026-10-15 17:02:01 | Comando: ./meeseeks -t 3 
+
+ENTRADA:
+  | 1
+  | Tarea imposible
+  | m
+  | 0
+  | f
+  | 5
+  | 0
+
+RESULTADO: OK (codigo de salida=0; esperado /CAOS PLANETARIO ->/) 
+           CAOS PLANETARIO: el menu NO reaparece y el programa termina: OK
+
+PROCESOS (tras terminar la corrida):
+  meeseeks vivos/residuales : 0
+  zombis                    : 0
+  huerfanos (PPID=1)        : 0
+
+SALIDA COMPLETA DEL PROGRAMA:
+----------------------------------------
+===========================================================
+                BOX MR. MEESEEKS - SISTEMA ACTIVO
+===========================================================
+ Box PID: 746
+ Limite de tiempo global: 3 segundos
+ Limite de procesos concurrentes en semaforo: 64
+ Para salir y ver el informe final de solicitudes, ingrese 0.
+ Tambien puede escribir directamente su solicitud: una expresion (15 + 27),
+ una ruta de programa (/bin/true) o texto libre (solicitud textual).
+===========================================================
+
+--- MENU DE SOLICITUDES ---
+1. Solicitud textual simulada
+2. Calculo aritmetico o logico
+3. Ejecutar programa externo
+0. Despedirse y cerrar la Box
+Seleccione una opcion (o escriba su solicitud): Describe la solicitud (ej. 'Quiero un cafe frances'): ¿Dificultad manual o aleatoria? (m/a): Introduce la dificultad (0 = imposible a 100 = facil): ¿Tiempo simulado fijo o aleatorio? (f/a): Introduce el tiempo simulado por Meeseeks en segundos (0.5 a 5.0): Hi, I'm Mr. Meeseeks! Look at Meeeee. (747, 746, 1, 1)
+
+===========================================================
+        ¡¡¡¡¡¡¡¡¡¡¡¡ CAOS PLANETARIO !!!!!!!!!!!!
+  Se alcanzo el tiempo maximo global de 3 segundos!
+  El Box procede a terminar inmediatamente todos los procesos
+  Mr. Meeseeks asociados mediante senales al grupo de procesos.
+===========================================================
+
+Meeseeks (PID=747, PPID=746, N=1, i=1): Tiempo maximo alcanzado (caos planetario); me despido.
+Box: CAOS PLANETARIO -> arbol de Meeseeks terminado; la Box recolecto 1 hijo(s) con waitpid (los demas fueron recolectados por sus propios padres). Sin zombis ni huerfanos.
+Box: Terminando la ejecucion del programa (no se vuelve al menu).
+Box: SOLICITUD INTERRUMPIDA POR TIEMPO MAXIMO GLOBAL.
+     Procesos creados: 1 | Pico simultaneo: 1
+     Tiempos -> CPU: 0.0028 s | Real (sin esperas): 0.0000 s | Espera simulada (suma): 6.000 s | Total: 3.011 s | Nivel max: 1
+
+=====================================================================================================================================
+                                     INFORME FINAL DE SOLICITUDES - BOX MR. MEESEEKS
+=====================================================================================================================================
+ #   | Tipo          | Dificultad | Estado                | T.Real (s) | T.CPU (s)  | T.Tot (s)  | Meeseeks | Pico  | Nmax | Descripcion
+-----+---------------+------------+-----------------------+------------+------------+------------+----------+-------+------+------------------
+ 1   | Textual       | 0.00       | TIEMPO MAXIMO (CAOS)  |        n/d |     0.0028 |      3.011 |        1 |     1 |    1 | Tarea imposible
+=====================================================================================================================================
+RESUMEN GENERAL ACUMULADO:
+ - Total de solicitudes realizadas : 1
+ - Tareas completadas con exito     : 0
+ - Tareas fallidas / no resueltas  : 0
+ - Tareas interrumpidas por tiempo : 1 (Caos Planetario)
+ - Total de Mr. Meeseeks creados    : 1
+ - Tiempo total de CPU acumulado   : 0.0028 s
+ - Tiempo total de reloj de sesion : 3.011 s
+=====================================================================================================================================
+Box: ¡Todas las solicitudes fueron procesadas! ¡Hasta la proxima!
+
